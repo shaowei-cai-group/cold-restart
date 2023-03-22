@@ -1,0 +1,8 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "files.associations": {
+        "report.h": "c",
+        "allocate.h": "c",
+        "reduce.h": "c"
+    }
+}

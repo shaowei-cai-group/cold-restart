@@ -1,0 +1,2036 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make -C "/home/chenzh/solvers/shuffle_clean/cadical-watch-sat-sr/build"
+ 
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Wed Sep 28 14:41:30 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile (from 'makefile', line 21)
+OBJ = $(LIB:.cpp=.o)
+# environment
+VSCODE_AGENT_FOLDER = /home/chenzh/.vscode-server
+# makefile (from 'makefile', line 18)
+SRC = $(sort $(wildcard ../src/*.cpp))
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /home/chenzh/solvers/shuffle_clean/cadical-watch-sat-sr/build
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"52a557de5c39607b04949a9e2e3aeee5.zh-cn","_translationsConfigFile":"/home/chenzh/.vscode-server/data/clp/52a557de5c39607b04949a9e2e3aeee5.zh-cn/tcf.json","_cacheRoot":"/home/chenzh/.vscode-server/data/clp/52a557de5c39607b04949a9e2e3aeee5.zh-cn","_resolvedLanguagePackCoreLocation":"/home/chenzh/.vscode-server/data/clp/52a557de5c39607b04949a9e2e3aeee5.zh-cn/784b0177c56c607789f9638da7b6bf3230d47a8c","_corruptedFile":"/home/chenzh/.vscode-server/data/clp/52a557de5c39607b04949a9e2e3aeee5.zh-cn/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /home/chenzh/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# 'override' directive
+GNUMAKEFLAGS := 
+# makefile (from 'makefile', line 11)
+CXXFLAGS = -Wall -Wextra -O3 -DNDEBUG
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# makefile (from 'makefile', line 17)
+APP = cadical.cpp mobical.cpp
+# environment
+VSCODE_CWD = /home/chenzh
+# environment
+SSH_CONNECTION = 172.16.2.5 63484 192.168.100.1 22
+# environment
+PATH = /home/chenzh/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-3011c6d0-c6c5-417f-8295-adca422b97e2.sock
+# makefile (from 'makefile', line 20)
+LIB = $(filter-out $(APP),$(SUB))
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# makefile (from 'makefile', line 22)
+DIR = ../$(shell pwd|sed -e 's,.*/,,')
+# environment
+LS_COLORS = 
+# automatic
+%F = $(notdir $%)
+# environment
+PWD = /home/chenzh/solvers/shuffle_clean/cadical-watch-sat-sr
+# default
+.LOADED := 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/chenzh
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+LOGNAME = chenzh
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
++F = $(notdir $+)
+# makefile (from 'makefile', line 23)
+COMPILE = $(CXX) $(CXXFLAGS) -I$(DIR)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 1
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+SHLVL = 0
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = chenzh
+# makefile
+.DEFAULT_GOAL := all
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile
+MAKEFLAGS = pqrRw
+# environment
+MFLAGS = -pqrRw
+# environment
+SSH_CLIENT = 172.16.2.5 63484 22
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = /home/chenzh/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/bin/helpers/browser.sh
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'makefile', line 10)
+CXX = g++
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+LANG = C
+# makefile (from 'makefile', line 19)
+SUB = $(subst ../src/,,$(SRC))
+# environment
+MOTD_SHOWN = pam
+# variable set hash-table stats:
+# Load=69/1024=7%, Rehash=0, Collisions=12/104=12%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 55, inode 89532773): 87 files, no impossibilities.
+# ../src (device 55, inode 89532410): 124 files, no impossibilities.
+
+# 211 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+%.o: ../src/%.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+%.cpp:
+
+%.o:
+
+# 3 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+score.o: ../src/score.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'score'
+#  Last modified 2022-08-16 13:34:18.793377864
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/logging.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.760711848
+#  File has been updated.
+#  Successfully updated.
+
+tracer.o: ../src/tracer.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'tracer'
+#  Last modified 2022-08-16 13:34:18.721374715
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/tracer.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.924717563
+#  File has been updated.
+#  Successfully updated.
+
+probe.o: ../src/probe.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'probe'
+#  Last modified 2022-08-16 13:34:19.065389763
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/message.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.548704461
+#  File has been updated.
+#  Successfully updated.
+
+random.o: ../src/random.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'random'
+#  Last modified 2022-08-16 13:34:18.625370515
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/reluctant.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.992719931
+#  File has been updated.
+#  Successfully updated.
+
+instantiate.o: ../src/instantiate.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'instantiate'
+#  Last modified 2022-08-16 13:34:18.777377164
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+internal.o: ../src/internal.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'internal'
+#  Last modified 2022-08-16 13:34:19.169394311
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/ema.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.660708364
+#  File has been updated.
+#  Successfully updated.
+
+build.hpp: always
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Last modified 2022-08-16 13:34:18.277355293
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := build.hpp
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := always
+# automatic
+# | := 
+# automatic
+# < := always
+# automatic
+# ^ := always
+# automatic
+# ? := always
+# variable set hash-table stats:
+ 
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'makefile', line 55):
+	../scripts/make-build-header.sh > build.hpp
+
+# Not a target:
+../src/var.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.768712127
+#  File has been updated.
+#  Successfully updated.
+
+libcadical.a: analyze.o arena.o assume.o averages.o backtrack.o backward.o bins.o block.o ccadical.o checker.o clause.o collect.o compact.o condition.o config.o contract.o cover.o decide.o decompose.o deduplicate.o elim.o ema.o extend.o external.o file.o flags.o format.o gates.o instantiate.o internal.o ipasir.o limit.o logging.o lookahead.o lucky.o message.o minimize.o occs.o options.o parse.o phases.o probe.o profile.o proof.o propagate.o queue.o random.o reduce.o rephase.o report.o resources.o restart.o restore.o score.o signal.o solution.o solver.o stats.o subsume.o terminal.o ternary.o tracer.o transred.o util.o var.o version.o vivify.o walk.o watch.o makefile
+#  Implicit rule search has not been done.
+#  Last modified 2022-08-16 13:34:21.953516084
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+#  recipe to execute (from 'makefile', line 48):
+	ar rc $@ $(OBJ)
+
+ipasir.o: ../src/ipasir.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile ../src/ipasir.h ../src/ccadical.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'ipasir'
+#  Last modified 2022-08-16 13:34:18.133348995
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/options.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.628707247
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/restart.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.908717004
+#  File has been updated.
+#  Successfully updated.
+
+all: libcadical.a cadical mobical
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+
+# Not a target:
+.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/averages.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.6847092
+#  File has been updated.
+#  Successfully updated.
+
+analyze: all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 73):
+	$(COMPILE) --analyze ../src/*.cpp
+
+cover.o: ../src/cover.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'cover'
+#  Last modified 2022-08-16 13:34:19.173394486
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/assume.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.588705855
+#  File has been updated.
+#  Successfully updated.
+
+.PHONY: all always analyze clean test update
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+analyze.o: ../src/analyze.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'analyze'
+#  Last modified 2022-08-16 13:34:19.137392912
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+resources.o: ../src/resources.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'resources'
+#  Last modified 2022-08-16 13:34:18.629370691
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+backtrack.o: ../src/backtrack.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'backtrack'
+#  Last modified 2022-08-16 13:34:18.665372266
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+logging.o: ../src/logging.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'logging'
+#  Last modified 2022-08-16 13:34:18.121348469
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/lucky.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.860715333
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/ccadical.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.692709479
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/profile.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.680709059
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/tracer.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.956718678
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/message.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.840714636
+#  File has been updated.
+#  Successfully updated.
+
+parse.o: ../src/parse.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'parse'
+#  Last modified 2022-08-16 13:34:18.853380489
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/minimize.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.820713939
+#  File has been updated.
+#  Successfully updated.
+
+deduplicate.o: ../src/deduplicate.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'deduplicate'
+#  Last modified 2022-08-16 13:34:18.66137209
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/ema.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.580705576
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/external.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.568705158
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/deduplicate.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.892716448
+#  File has been updated.
+#  Successfully updated.
+
+proof.o: ../src/proof.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'proof'
+#  Last modified 2022-08-16 13:34:18.753376114
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+transred.o: ../src/transred.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'transred'
+#  Last modified 2022-08-16 13:34:18.745375766
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/limit.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.920717422
+#  File has been updated.
+#  Successfully updated.
+
+gates.o: ../src/gates.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'gates'
+#  Last modified 2022-08-16 13:34:18.881381713
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/transred.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.784712683
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/options.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-21 01:55:02.452626314
+#  File has been updated.
+#  Successfully updated.
+
+flags.o: ../src/flags.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'flags'
+ 
+#  Last modified 2022-08-16 13:34:18.565367891
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+restore.o: ../src/restore.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'restore'
+#  Last modified 2022-08-16 13:34:18.797378039
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+.SUFFIXES: .cpp .o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+arena.o: ../src/arena.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'arena'
+#  Last modified 2022-08-16 13:34:18.525366141
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+format.o: ../src/format.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'format'
+#  Last modified 2022-08-16 13:34:18.625370515
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/checker.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.720710453
+#  File has been updated.
+#  Successfully updated.
+
+queue.o: ../src/queue.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'queue'
+#  Last modified 2022-08-16 13:34:18.665372266
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/backward.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.856715192
+#  File has been updated.
+#  Successfully updated.
+
+decide.o: ../src/decide.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'decide'
+#  Last modified 2022-08-16 13:34:18.705374016
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+always:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/contract.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.540704182
+#  File has been updated.
+#  Successfully updated.
+
+update:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 60):
+	../scripts/update-version.sh
+
+# Not a target:
+../src/score.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.632707388
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/vivify.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.856715192
+#  File has been updated.
+#  Successfully updated.
+
+solution.o: ../src/solution.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'solution'
+#  Last modified 2022-08-16 13:34:18.625370515
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/extend.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.81271366
+#  File has been updated.
+#  Successfully updated.
+
+ema.o: ../src/ema.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'ema'
+#  Last modified 2022-08-16 13:34:18.561367716
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/profile.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.80471338
+#  File has been updated.
+#  Successfully updated.
+
+rephase.o: ../src/rephase.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'rephase'
+#  Last modified 2022-08-16 13:34:18.697373665
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+propagate.o: ../src/propagate.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'propagate'
+#  Last modified 2022-08-16 13:34:18.809378564
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+walk.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-16 13:34:18.037344796
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/decompose.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.688709338
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/external.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.912717145
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/probe.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.612706691
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/compact.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.884716169
+#  File has been updated.
+#  Successfully updated.
+
+reduce.o: ../src/reduce.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'reduce'
+#  Last modified 2022-08-16 13:34:18.897382414
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/gates.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.656708223
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/solver.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.792712962
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/stats.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.980719513
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/elim.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.784712683
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/checker.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.644707806
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/bins.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.972719234
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/block.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.62070697
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+vivify.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/report.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.936717981
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/contract.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.872715751
+#  File has been updated.
+#  Successfully updated.
+
+ 
+phases.o: ../src/phases.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'phases'
+#  Last modified 2022-08-16 13:34:18.62137034
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/collect.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-11 17:09:13.444686406
+#  File has been updated.
+#  Successfully updated.
+
+condition.o: ../src/condition.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'condition'
+#  Last modified 2022-08-16 13:34:19.033388362
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/queue.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.976719375
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/heap.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.904716866
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/format.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.928717701
+#  File has been updated.
+#  Successfully updated.
+
+file.o: ../src/file.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'file'
+#  Last modified 2022-08-16 13:34:18.629370691
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/occs.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.932717842
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/clause.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.600706273
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/analyze.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-16 13:30:02.230100803
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/random.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.86871561
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/parse.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.74871143
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+watch.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+occs.o: ../src/occs.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'occs'
+#  Last modified 2022-08-16 13:34:18.64537139
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/logging.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.780712545
+#  File has been updated.
+#  Successfully updated.
+
+lookahead.o: ../src/lookahead.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'lookahead'
+#  Last modified 2022-08-16 13:34:19.001386962
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+mobical: mobical.o libcadical.a makefile
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 45):
+	$(COMPILE) -o $@ $< -L. -lcadical
+
+stats.o: ../src/stats.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stats'
+#  Last modified 2022-08-16 13:34:18.845380138
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+mobical.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/subsume.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.676708921
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/bins.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.648707944
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/stats.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.888716307
+#  File has been updated.
+#  Successfully updated.
+
+extend.o: ../src/extend.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'extend'
+#  Last modified 2022-08-16 13:34:18.74137559
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/block.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.580705576
+#  File has been updated.
+#  Successfully updated.
+
+version.o: ../src/version.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile build.hpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'version'
+#  Last modified 2022-08-16 13:34:18.297356168
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/signal.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.624707109
+#  File has been updated.
+#  Successfully updated.
+
+decompose.o: ../src/decompose.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'decompose'
+#  Last modified 2022-08-16 13:34:18.777377164
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/decide.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-21 01:56:23.984091962
+#  File has been updated.
+#  Successfully updated.
+
+ccadical.o: ../src/ccadical.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile ../src/ccadical.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'ccadical'
+#  Last modified 2022-08-16 13:34:18.213352493
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/flags.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.744711291
+#  File has been updated.
+#  Successfully updated.
+
+averages.o: ../src/averages.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'averages'
+#  Last modified 2022-08-16 13:34:18.549367191
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/resources.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.844714774
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/cadical.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.592705994
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/queue.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.584705714
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/backtrack.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.636707526
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/format.hpp:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2022-06-23 17:25:19.88071603
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/arena.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.988719792
+#  File has been updated.
+#  Successfully updated.
+
+checker.o: ../src/checker.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'checker'
+#  Last modified 2022-08-16 13:34:18.993386612
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+restart.o: ../src/restart.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'restart'
+#  Last modified 2022-08-16 13:34:18.669372439
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/clause.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.896716586
+#  File has been updated.
+#  Successfully updated.
+
+test: all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 80):
+	CADICALBUILD="$(DIR)" $(MAKE) -j1 -C ../test
+
+# Not a target:
+../src/random.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.876715889
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/parse.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.54470432
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/propagate.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:20.016720768
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/limit.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.616706829
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/util.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.948718398
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 76):
+	rm -f *.o *.a cadical mobical makefile build.hpp
+	rm -f *.gcda *.gcno *.gcov gmon.out
+
+# Not a target:
+../src/file.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.668708641
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/radix.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.996720071
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/flags.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.832714357
+#  File has been updated.
+#  Successfully updated.
+
+limit.o: ../src/limit.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'limit'
+#  Last modified 2022-08-16 13:34:18.59736929
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/restore.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.552704599
+#  File has been updated.
+#  Successfully updated.
+
+var.o: ../src/var.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'var'
+#  Last modified 2022-08-16 13:34:18.689373314
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+ternary.o: ../src/ternary.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'ternary'
+#  Last modified 2022-08-16 13:34:18.845380138
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/range.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.696709618
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/ternary.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:20.00072021
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/signal.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.560704879
+#  File has been updated.
+#  Successfully updated.
+
+compact.o: ../src/compact.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'compact'
+#  Last modified 2022-08-16 13:34:19.465407258
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/config.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.960718816
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/resources.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.968719096
+#  File has been updated.
+#  Successfully updated.
+
+assume.o: ../src/assume.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'assume'
+#  Last modified 2022-08-16 13:34:18.625370515
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/cover.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:20.012720628
+#  File has been updated.
+#  Successfully updated.
+
+message.o: ../src/message.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'message'
+#  Last modified 2022-08-16 13:34:18.641371215
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/phases.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.772712265
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/arena.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.984719653
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/rephase.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.964718957
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/score.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.94471826
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/version.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.752711568
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/occs.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.788712824
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/ipasir.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.800713242
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/proof.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.736711012
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/lookahead.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.664708503
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/terminal.cpp:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2022-06-23 17:25:19.756711709
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/watch.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.916717284
+#  File has been updated.
+#  Successfully updated.
+
+contract.o: ../src/contract.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'contract'
+#  Last modified 2022-08-16 13:34:18.553367367
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+collect.o: ../src/collect.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'collect'
+#  Last modified 2022-08-16 13:34:18.829379439
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/util.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.824714077
+#  File has been updated.
+#  Successfully updated.
+
+backward.o: ../src/backward.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'backward'
+#  Last modified 2022-08-16 13:34:18.649371566
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+options.o: ../src/options.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'options'
+#  Last modified 2022-08-16 13:34:21.913514333
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+cadical: cadical.o libcadical.a makefile
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 42):
+	$(COMPILE) -o $@ $< -L. -lcadical
+
+# Not a target:
+../src/instantiate.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.876715889
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+cadical.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/internal.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-15 20:06:09.724510581
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/reduce.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-16 13:30:10.698475083
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/file.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.852715054
+#  File has been updated.
+#  Successfully updated.
+
+terminal.o: ../src/terminal.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'terminal'
+#  Last modified 2022-08-16 13:34:18.665372266
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+elim.o: ../src/elim.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'elim'
+#  Last modified 2022-08-16 13:34:19.28139921
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/elim.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.704709897
+#  File has been updated.
+#  Successfully updated.
+
+clause.o: ../src/clause.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'clause'
+#  Last modified 2022-08-16 13:34:18.737375415
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+profile.o: ../src/profile.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'profile'
+#  Last modified 2022-08-16 13:34:18.689373314
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/ipasir.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.652708085
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/condition.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.940718119
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/config.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.572705297
+#  File has been updated.
+#  Successfully updated.
+
+lucky.o: ../src/lucky.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'lucky'
+#  Last modified 2022-08-16 13:34:18.705374016
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/level.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.796713103
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/cover.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.712710174
+#  File has been updated.
+#  Successfully updated.
+
+config.o: ../src/config.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'config'
+#  Last modified 2022-08-16 13:34:18.553367367
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/phases.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.540704182
+#  File has been updated.
+#  Successfully updated.
+
+minimize.o: ../src/minimize.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'minimize'
+#  Last modified 2022-08-16 13:34:18.769376814
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/observer.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.968719096
+#  File has been updated.
+#  Successfully updated.
+
+subsume.o: ../src/subsume.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'subsume'
+#  Last modified 2022-08-16 13:34:19.077390287
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+external.o: ../src/external.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'external'
+#  Last modified 2022-08-16 13:34:18.989386439
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/var.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.864715472
+#  File has been updated.
+#  Successfully updated.
+
+util.o: ../src/util.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'util'
+#  Last modified 2022-08-16 13:34:18.709374189
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/version.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.756711709
+#  File has been updated.
+#  Successfully updated.
+
+solver.o: ../src/solver.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'solver'
+#  Last modified 2022-08-16 13:34:19.329401309
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+ 
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/proof.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.596706132
+#  File has been updated.
+#  Successfully updated.
+
+signal.o: ../src/signal.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'signal'
+#  Last modified 2022-08-16 13:34:18.277355293
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/ccadical.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.816713798
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/solution.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.916717284
+#  File has been updated.
+#  Successfully updated.
+
+bins.o: ../src/bins.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'bins'
+#  Last modified 2022-08-16 13:34:18.589368942
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/averages.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.832714357
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/instantiate.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.952718539
+#  File has been updated.
+#  Successfully updated.
+
+block.o: ../src/block.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'block'
+#  Last modified 2022-08-16 13:34:18.937384163
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/internal.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-11 17:29:54.977602631
+#  File has been updated.
+#  Successfully updated.
+
+report.o: ../src/report.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'report'
+#  Last modified 2022-08-16 13:34:18.629370691
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+../src/terminal.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.55670474
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=201/1024=20%, Rehash=0, Collisions=1386/6718=21%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 405 / storage = 5087 B / avg = 12 B
+# current buf: size = 8162 B / used = 5087 B / count = 405 / avg = 12 B
+
+# strcache performance: lookups = 6796 / hit rate = 94%
+# hash-table stats:
+# Load=405/8192=5%, Rehash=0, Collisions=415/6796=6%
+# Finished Make data base on Wed Sep 28 14:41:30 2022
+
+ 
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed Sep 28 14:41:30 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+VSCODE_AGENT_FOLDER = /home/chenzh/.vscode-server
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /home/chenzh/solvers/shuffle_clean/cadical-watch-sat-sr
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"52a557de5c39607b04949a9e2e3aeee5.zh-cn","_translationsConfigFile":"/home/chenzh/.vscode-server/data/clp/52a557de5c39607b04949a9e2e3aeee5.zh-cn/tcf.json","_cacheRoot":"/home/chenzh/.vscode-server/data/clp/52a557de5c39607b04949a9e2e3aeee5.zh-cn","_resolvedLanguagePackCoreLocation":"/home/chenzh/.vscode-server/data/clp/52a557de5c39607b04949a9e2e3aeee5.zh-cn/784b0177c56c607789f9638da7b6bf3230d47a8c","_corruptedFile":"/home/chenzh/.vscode-server/data/clp/52a557de5c39607b04949a9e2e3aeee5.zh-cn/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /home/chenzh/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/chenzh
+# environment
+SSH_CONNECTION = 172.16.2.5 63484 192.168.100.1 22
+# environment
+PATH = /home/chenzh/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-3011c6d0-c6c5-417f-8295-adca422b97e2.sock
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# automatic
+%F = $(notdir $%)
+# environment
+PWD = /home/chenzh/solvers/shuffle_clean/cadical-watch-sat-sr
+# default
+.LOADED := 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/chenzh
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+LOGNAME = chenzh
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 0
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = chenzh
+# makefile
+.DEFAULT_GOAL := all
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = 172.16.2.5 63484 22
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = /home/chenzh/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/bin/helpers/browser.sh
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile (from 'makefile', line 1)
+CADICALBUILD = /home/chenzh/solvers/shuffle_clean/cadical-watch-sat-sr/build
+# environment
+LANG = C
+# environment
+MOTD_SHOWN = pam
+# variable set hash-table stats:
+# Load=62/1024=6%, Rehash=0, Collisions=7/93=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 55, inode 89522876): 17 files, no impossibilities.
+
+# 17 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all:
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/14=14%
+#  recipe to execute (from 'makefile', line 3):
+	$(MAKE) -C "$(CADICALBUILD)"
+
+.PHONY: all cadical clean mobical test update
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+update:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 22):
+	$(MAKE) -C "$(CADICALBUILD)" update
+
+test:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 16):
+	$(MAKE) -C "$(CADICALBUILD)" test
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-16 13:34:18.037344796
+#  File has been updated.
+#  Successfully updated.
+
+mobical:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 20):
+	$(MAKE) -C "$(CADICALBUILD)" mobical
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 5):
+	@if [ -d "$(CADICALBUILD)" ]; \
+	then \
+	  if [ -f "$(CADICALBUILD)"/makefile ]; \
+	  then \
+	     touch "$(CADICALBUILD)"/build.hpp; \
+	     $(MAKE) -C "$(CADICALBUILD)" clean; \
+	  fi; \
+	  rm -rf "$(CADICALBUILD)"; \
+	fi
+	rm -f "/home/chenzh/solvers/shuffle_clean/cadical-watch-sat-sr/makefile"
+
+cadical:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 18):
+	$(MAKE) -C "$(CADICALBUILD)" cadical
+
+# files hash-table stats:
+# Load=10/1024=1%, Rehash=0, Collisions=0/29=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 27 / storage = 229 B / avg = 8 B
+# current buf: size = 8162 B / used = 229 B / count = 27 / avg = 8 B
+
+# strcache performance: lookups = 47 / hit rate = 42%
+# hash-table stats:
+# Load=27/8192=0%, Rehash=0, Collisions=1/47=2%
+# Finished Make data base on Wed Sep 28 14:41:30 2022
+
+ 

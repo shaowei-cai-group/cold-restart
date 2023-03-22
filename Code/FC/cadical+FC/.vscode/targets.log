@@ -1,0 +1,1390 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make -C "/home/chenzh/solvers/shuffle_clean/cadical-watch-sat-sr/build"
+ 
+# make[1]: Entering directory '/home/chenzh/solvers/shuffle_clean/cadical-watch-sat-sr/build'
+ 
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Tue Aug 16 12:58:50 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile (from 'makefile', line 21)
+OBJ = $(LIB:.cpp=.o)
+# environment
+VSCODE_AGENT_FOLDER = /home/chenzh/.vscode-server
+# makefile (from 'makefile', line 18)
+SRC = $(sort $(wildcard ../src/*.cpp))
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /home/chenzh/solvers/shuffle_clean/cadical-watch-sat-sr/build
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"e1243840abbb4e31a890d397033a9abf.zh-cn","_translationsConfigFile":"/home/chenzh/.vscode-server/data/clp/e1243840abbb4e31a890d397033a9abf.zh-cn/tcf.json","_cacheRoot":"/home/chenzh/.vscode-server/data/clp/e1243840abbb4e31a890d397033a9abf.zh-cn","_resolvedLanguagePackCoreLocation":"/home/chenzh/.vscode-server/data/clp/e1243840abbb4e31a890d397033a9abf.zh-cn/dfd34e8260c270da74b5c2d86d61aee4b6d56977","_corruptedFile":"/home/chenzh/.vscode-server/data/clp/e1243840abbb4e31a890d397033a9abf.zh-cn/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /home/chenzh/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# 'override' directive
+GNUMAKEFLAGS := 
+# makefile (from 'makefile', line 11)
+CXXFLAGS = -Wall -Wextra -O3 -DNDEBUG
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# makefile (from 'makefile', line 17)
+APP = cadical.cpp mobical.cpp
+# environment
+VSCODE_CWD = /home/chenzh
+# environment
+SSH_CONNECTION = 172.16.2.5 12629 192.168.100.1 22
+# environment
+PATH = /home/chenzh/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+VSCODE_LOG_STACK = false
+# environment
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-5db790ee-3789-4ffe-9bc3-c123a2c58788.sock
+# makefile (from 'makefile', line 20)
+LIB = $(filter-out $(APP),$(SUB))
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# makefile (from 'makefile', line 22)
+DIR = ../$(shell pwd|sed -e 's,.*/,,')
+# environment
+LS_COLORS = 
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/chenzh/solvers/shuffle_clean/cadical-watch-sat-sr
+# default
+.LOADED := 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/chenzh
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+LOGNAME = chenzh
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
++F = $(notdir $+)
+# makefile (from 'makefile', line 23)
+COMPILE = $(CXX) $(CXXFLAGS) -I$(DIR)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 1
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+SHLVL = 0
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = chenzh
+# makefile
+.DEFAULT_GOAL := all
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile
+MAKEFLAGS = pqrRw
+# environment
+MFLAGS = -pqrRw
+# environment
+SSH_CLIENT = 172.16.2.5 12629 22
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = /home/chenzh/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/helpers/browser.sh
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'makefile', line 10)
+CXX = g++
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+LANG = C
+# environment
+VSCODE_EXTHOST_WILL_SEND_SOCKET = true
+# makefile (from 'makefile', line 19)
+SUB = $(subst ../src/,,$(SRC))
+# environment
+MOTD_SHOWN = pam
+# variable set hash-table stats:
+# Load=72/1024=7%, Rehash=0, Collisions=12/114=11%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 55, inode 89532773): 87 files, no impossibilities.
+# ../src (device 55, inode 89532410): 124 files, no impossibilities.
+
+# 211 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+%.o: ../src/%.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+%.cpp:
+
+%.o:
+
+# 3 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+score.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+tracer.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+probe.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+random.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/reluctant.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.992719931
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+instantiate.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+internal.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build.hpp: always
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 55):
+	../scripts/make-build-header.sh > build.hpp
+
+# Not a target:
+../src/var.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.768712127
+#  File has been updated.
+#  Successfully updated.
+
+libcadical.a: analyze.o arena.o assume.o averages.o backtrack.o backward.o bins.o block.o ccadical.o checker.o clause.o collect.o compact.o condition.o config.o contract.o cover.o decide.o decompose.o deduplicate.o elim.o ema.o extend.o external.o file.o flags.o format.o gates.o instantiate.o internal.o ipasir.o limit.o logging.o lookahead.o lucky.o message.o minimize.o occs.o options.o parse.o phases.o probe.o profile.o proof.o propagate.o queue.o random.o reduce.o rephase.o report.o resources.o restart.o restore.o score.o signal.o solution.o solver.o stats.o subsume.o terminal.o ternary.o tracer.o transred.o util.o var.o version.o vivify.o walk.o watch.o makefile
+#  Implicit rule search has not been done.
+#  Last modified 2022-08-15 20:07:20.052750194
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/10=0%
+#  recipe to execute (from 'makefile', line 48):
+	ar rc $@ $(OBJ)
+
+ipasir.o: ../src/ipasir.h ../src/ccadical.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: libcadical.a cadical mobical
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/10=0%
+
+# Not a target:
+.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/averages.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.6847092
+#  File has been updated.
+#  Successfully updated.
+
+analyze: all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 73):
+	$(COMPILE) --analyze ../src/*.cpp
+
+# Not a target:
+ 
+cover.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: all always analyze clean test update
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# 'override' directive
+analyze.o: .SHELLSTATUS := 0
+analyze.o: ../src/analyze.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'analyze'
+#  Last modified 2022-08-15 20:06:37.56219467
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := analyze.o
+# automatic
+# % := 
+# automatic
+# * := analyze
+# automatic
+# + := ../src/analyze.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+# automatic
+# | := 
+# automatic
+# < := ../src/analyze.cpp
+# automatic
+# ^ := ../src/analyze.cpp ../src/queue.hpp ../src/tracer.hpp ../src/checker.hpp ../src/occs.hpp ../src/arena.hpp ../src/watch.hpp ../src/score.hpp ../src/flags.hpp ../src/file.hpp ../src/block.hpp ../src/proof.hpp ../src/var.hpp ../src/phases.hpp ../src/limit.hpp ../src/reluctant.hpp ../src/signal.hpp ../src/parse.hpp ../src/util.hpp ../src/external.hpp ../src/logging.hpp ../src/config.hpp ../src/range.hpp ../src/vivify.hpp ../src/resources.hpp ../src/heap.hpp ../src/profile.hpp ../src/observer.hpp ../src/cover.hpp ../src/format.hpp ../src/averages.hpp ../src/elim.hpp ../src/radix.hpp ../src/terminal.hpp ../src/clause.hpp ../src/version.hpp ../src/cadical.hpp ../src/options.hpp ../src/ema.hpp ../src/internal.hpp ../src/contract.hpp ../src/instantiate.hpp ../src/stats.hpp ../src/level.hpp ../src/bins.hpp ../src/random.hpp ../src/message.hpp makefile
+# automatic
+# ? := ../src/analyze.cpp
+# variable set hash-table stats:
+# Load=9/32=28%, Rehash=0, Collisions=3/20=15%
+#  recipe to execute (from 'makefile', line 34):
+	$(COMPILE) -c $<
+
+# Not a target:
+resources.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+backtrack.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+logging.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/ccadical.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/tracer.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.956718678
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/message.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.840714636
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+parse.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+deduplicate.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/ema.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.580705576
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+proof.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+transred.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+gates.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/options.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-21 01:55:02.452626314
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+flags.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+restore.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.SUFFIXES: .cpp .o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+arena.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+format.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+queue.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+decide.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+always:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+../src/contract.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.540704182
+#  File has been updated.
+#  Successfully updated.
+
+update:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 60):
+	../scripts/update-version.sh
+
+# Not a target:
+../src/vivify.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.856715192
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+solution.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ema.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/profile.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.80471338
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+rephase.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+propagate.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+walk.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-15 20:06:36.534132618
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/external.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.912717145
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+reduce.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/stats.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.980719513
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/elim.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.784712683
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/checker.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.644707806
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+vivify.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+phases.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+condition.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/heap.hpp:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2022-06-23 17:25:19.904716866
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+file.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/occs.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.932717842
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/analyze.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-16 12:52:31.735295757
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+watch.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+occs.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/logging.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.780712545
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+lookahead.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+mobical: mobical.o libcadical.a makefile
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 45):
+	$(COMPILE) -o $@ $< -L. -lcadical
+
+# Not a target:
+stats.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+mobical.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/bins.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.648707944
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+extend.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/block.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.580705576
+#  File has been updated.
+#  Successfully updated.
+
+version.o: build.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+decompose.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ccadical.o: ../src/ccadical.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/flags.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.744711291
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+averages.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/cadical.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.592705994
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/queue.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.584705714
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/format.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.88071603
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+checker.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+restart.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/clause.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.896716586
+#  File has been updated.
+#  Successfully updated.
+
+test: all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 80):
+	CADICALBUILD="$(DIR)" $(MAKE) -j1 -C ../test
+
+# Not a target:
+../src/random.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.876715889
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/parse.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.54470432
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/limit.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.616706829
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 76):
+	rm -f *.o *.a cadical mobical makefile build.hpp
+	rm -f *.gcda *.gcno *.gcov gmon.out
+
+# Not a target:
+../src/radix.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.996720071
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+limit.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+var.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ternary.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/range.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.696709618
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/signal.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.560704879
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+compact.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/resources.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.968719096
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+assume.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+message.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/arena.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.984719653
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/score.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.94471826
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/ipasir.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/watch.hpp:
+ 
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.916717284
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+contract.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+collect.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/util.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.824714077
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+backward.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+options.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+cadical: cadical.o libcadical.a makefile
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 42):
+	$(COMPILE) -o $@ $< -L. -lcadical
+
+# Not a target:
+cadical.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/file.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.852715054
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+terminal.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+elim.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+clause.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+profile.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/config.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.572705297
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+lucky.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/level.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.796713103
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/cover.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.712710174
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+config.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/phases.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.540704182
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+minimize.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/observer.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.968719096
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+subsume.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+external.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+util.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/version.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.756711709
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+solver.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/proof.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.596706132
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+signal.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bins.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/instantiate.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.952718539
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+block.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/internal.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-11 17:29:54.977602631
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+report.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/terminal.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 17:25:19.55670474
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=136/1024=13%, Rehash=0, Collisions=47/347=14%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 275 / storage = 3398 B / avg = 12 B
+# current buf: size = 8162 B / used = 3398 B / count = 275 / avg = 12 B
+
+# strcache performance: lookups = 490 / hit rate = 43%
+# hash-table stats:
+# Load=275/8192=3%, Rehash=0, Collisions=14/490=3%
+# Finished Make data base on Tue Aug 16 12:58:50 2022
+
+# make[1]: Leaving directory '/home/chenzh/solvers/shuffle_clean/cadical-watch-sat-sr/build'
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue Aug 16 12:58:50 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+VSCODE_AGENT_FOLDER = /home/chenzh/.vscode-server
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /home/chenzh/solvers/shuffle_clean/cadical-watch-sat-sr
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"e1243840abbb4e31a890d397033a9abf.zh-cn","_translationsConfigFile":"/home/chenzh/.vscode-server/data/clp/e1243840abbb4e31a890d397033a9abf.zh-cn/tcf.json","_cacheRoot":"/home/chenzh/.vscode-server/data/clp/e1243840abbb4e31a890d397033a9abf.zh-cn","_resolvedLanguagePackCoreLocation":"/home/chenzh/.vscode-server/data/clp/e1243840abbb4e31a890d397033a9abf.zh-cn/dfd34e8260c270da74b5c2d86d61aee4b6d56977","_corruptedFile":"/home/chenzh/.vscode-server/data/clp/e1243840abbb4e31a890d397033a9abf.zh-cn/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /home/chenzh/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/chenzh
+# environment
+SSH_CONNECTION = 172.16.2.5 12629 192.168.100.1 22
+# environment
+PATH = /home/chenzh/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+VSCODE_LOG_STACK = false
+# environment
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-5db790ee-3789-4ffe-9bc3-c123a2c58788.sock
+# default
+ 
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/chenzh/solvers/shuffle_clean/cadical-watch-sat-sr
+# default
+.LOADED := 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/chenzh
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+LOGNAME = chenzh
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 0
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = chenzh
+# makefile
+.DEFAULT_GOAL := all
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = 172.16.2.5 12629 22
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = /home/chenzh/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/helpers/browser.sh
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile (from 'makefile', line 1)
+CADICALBUILD = /home/chenzh/solvers/shuffle_clean/cadical-watch-sat-sr/build
+# environment
+LANG = C
+# environment
+VSCODE_EXTHOST_WILL_SEND_SOCKET = true
+# environment
+MOTD_SHOWN = pam
+# variable set hash-table stats:
+# Load=65/1024=6%, Rehash=0, Collisions=7/96=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 55, inode 89522876): 17 files, no impossibilities.
+
+# 17 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all:
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/14=14%
+#  recipe to execute (from 'makefile', line 3):
+	$(MAKE) -C "$(CADICALBUILD)"
+
+.PHONY: all cadical clean mobical test update
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+update:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 22):
+	$(MAKE) -C "$(CADICALBUILD)" update
+
+test:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 16):
+	$(MAKE) -C "$(CADICALBUILD)" test
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-15 20:06:36.53813286
+#  File has been updated.
+#  Successfully updated.
+
+mobical:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 20):
+	$(MAKE) -C "$(CADICALBUILD)" mobical
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 5):
+	@if [ -d "$(CADICALBUILD)" ]; \
+	then \
+	  if [ -f "$(CADICALBUILD)"/makefile ]; \
+	  then \
+	     touch "$(CADICALBUILD)"/build.hpp; \
+	     $(MAKE) -C "$(CADICALBUILD)" clean; \
+	  fi; \
+	  rm -rf "$(CADICALBUILD)"; \
+	fi
+	rm -f "/home/chenzh/solvers/shuffle_clean/cadical-watch-sat-sr/makefile"
+
+cadical:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 18):
+	$(MAKE) -C "$(CADICALBUILD)" cadical
+
+# files hash-table stats:
+# Load=10/1024=1%, Rehash=0, Collisions=0/29=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 27 / storage = 229 B / avg = 8 B
+# current buf: size = 8162 B / used = 229 B / count = 27 / avg = 8 B
+
+# strcache performance: lookups = 47 / hit rate = 42%
+# hash-table stats:
+# Load=27/8192=0%, Rehash=0, Collisions=1/47=2%
+# Finished Make data base on Tue Aug 16 12:58:50 2022
+
+ 

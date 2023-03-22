@@ -1,0 +1,2160 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make -C "/home/chenzh/solvers/shuffle/kissat_mab-sr/build"
+ 
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Sun Jul 31 00:13:06 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+VSCODE_AGENT_FOLDER = /home/chenzh/.vscode-server
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'makefile', line 24)
+INCLUDES = -I../$(shell pwd|sed -e 's,.*/,,')
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /home/chenzh/solvers/shuffle/kissat_mab-sr/build
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"1d735750dbb1b9066c7513078396ba0f.zh-cn","_translationsConfigFile":"/home/chenzh/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/tcf.json","_cacheRoot":"/home/chenzh/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn","_resolvedLanguagePackCoreLocation":"/home/chenzh/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/3b889b090b5ad5793f524b5d1d39fda662b96a2a","_corruptedFile":"/home/chenzh/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /home/chenzh/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/node
+# makefile (from 'makefile', line 2)
+CFLAGS = -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/chenzh
+# environment
+SSH_CONNECTION = 172.16.2.5 55705 192.168.100.1 22
+# environment
+PATH = /home/chenzh/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# makefile (from 'makefile', line 3)
+LD = gcc
+# makefile (from 'makefile', line 30)
+REMOVE = *.gcda *.gcno *.gcov gmon.out *~ *.proof
+# makefile (from 'makefile', line 16)
+TSTSRT = $(sort $(wildcard ../test/*.c))
+# makefile (from 'makefile', line 5)
+VPATH = ../src:../test
+# makefile (from 'makefile', line 4)
+AR = ar
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-b8f10098-784d-4f8c-b539-be7401e7792f.sock
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# automatic
+%F = $(notdir $%)
+# environment
+PWD = /home/chenzh/solvers/shuffle_phase/kissat_mab-sr
+# makefile (from 'makefile', line 22)
+TSTOBJ = $(APPOBJ) $(TSTSRC:.c=.o)
+# default
+.LOADED := 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/chenzh
+# makefile (from 'makefile', line 12)
+LIBSRT = $(sort $(wildcard ../src/*.c))
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+LOGNAME = chenzh
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
++F = $(notdir $+)
+# makefile (from 'makefile', line 20)
+APPOBJ = $(APPSRC:.c=.o)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 1
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+SHLVL = 0
+# makefile (from 'makefile', line 1)
+CC = gcc
+# makefile (from 'makefile', line 17)
+TSTSUB = $(subst ../test/,,$(TSTSRT))
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = chenzh
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from 'makefile', line 18)
+TSTSRC = $(filter-out test.c,$(TSTSUB))
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from 'makefile', line 21)
+LIBOBJ = $(LIBSRC:.c=.o)
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile
+MAKEFLAGS = pqrRw
+# environment
+MFLAGS = -pqrRw
+# environment
+SSH_CLIENT = 172.16.2.5 55705 22
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = /home/chenzh/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/bin/helpers/browser.sh
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# makefile (from 'makefile', line 13)
+LIBSUB = $(subst ../src/,,$(LIBSRT))
+# makefile (from 'makefile', line 10)
+APPSRC = application.c handle.c parse.c witness.c
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'makefile', line 14)
+LIBSRC = $(filter-out main.c,$(LIBSUB))
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+LANG = C
+# environment
+MOTD_SHOWN = pam
+# variable set hash-table stats:
+# Load=77/1024=8%, Rehash=0, Collisions=10/119=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# ../scripts (device 55, inode 89395250): 5 files, no impossibilities.
+# . (device 55, inode 89395254): 92 files, no impossibilities.
+# ../src (device 55, inode 89395347): 187 files, no impossibilities.
+# ../test (device 55, inode 89395533): 49 files, no impossibilities.
+# .. (device 55, inode 89395216): 13 files, no impossibilities.
+
+# 346 files, no impossibilities in 5 directories.
+
+# Implicit Rules
+
+%.o: %.c ../test/testscheduler.h ../test/test.h ../test/testdivert.h ../test/testapplication.h ../test/testcnfs.h ../test/testmessages.h ../src/backtrack.h ../src/resources.h ../src/learn.h ../src/endianess.h ../src/limits.h ../src/heap.h ../src/equivalences.h ../src/check.h ../src/restart.h ../src/failed.h ../src/stack.h ../src/flags.h ../src/analyze.h ../src/ifthenelse.h ../src/error.h ../src/clause.h ../src/cover.h ../src/require.h ../src/decide.h ../src/value.h ../src/weaken.h ../src/reduce.h ../src/resolve.h ../src/utilities.h ../src/averages.h ../src/assign.h ../src/application.h ../src/walk.h ../src/propsearch.h ../src/reluctant.h ../src/file.h ../src/deduce.h ../src/rank.h ../src/internal.h ../src/terminate.h ../src/handle.h ../src/extend.h ../src/backward.h ../src/rephase.h ../src/autarky.h ../src/kissat.h ../src/reference.h ../src/vector.h ../src/sort.h ../src/allocate.h ../src/promote.h ../src/proof.h ../src/random.h ../src/inline.h ../src/proplit.h ../src/statistics.h ../src/probe.h ../src/witness.h ../src/eliminate.h ../src/trail.h ../src/print.h ../src/strengthen.h ../src/bump.h ../src/proprobe.h ../src/resize.h ../src/format.h ../src/arena.h ../src/watch.h ../src/options.h ../src/ands.h ../src/literal.h ../src/phases.h ../src/gates.h ../src/compact.h ../src/report.h ../src/vivify.h ../src/propdense.h ../src/collect.h ../src/ternary.h ../src/mode.h ../src/dominate.h ../src/substitute.h ../src/profile.h ../src/logging.h ../src/config.h ../src/prophyper.h ../src/clueue.h ../src/colors.h ../src/queue.h ../src/parse.h ../src/dense.h ../src/forward.h ../src/transitive.h ../src/xors.h ../src/smooth.h ../src/import.h ../src/frames.h ../src/minimize.h ../src/search.h makefile
+#  recipe to execute (from 'makefile', line 8):
+	$(CC) $(CFLAGS) -c $<
+
+# 1 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+../src/colors.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.697154623
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+teststack.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/substitute.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.769157012
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+testvector.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/restart.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.841159401
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+testmain.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+transitive.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+testoptions.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/statistics.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.745156214
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+probe.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/error.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.833159135
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+learn.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+internal.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/frames.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.717155287
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+ 
+../src/backward.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.693154489
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../test/testcnfs.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:22.001164709
+#  File has been updated.
+#  Successfully updated.
+
+kissat: main.o application.o handle.o parse.o witness.o libkissat.a makefile
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 46):
+	$(LD) -o $@ $< $(APPOBJ) -L. -lkissat -lm
+
+autarky.o: ../src/autarky.c ../test/testscheduler.h ../test/test.h ../test/testdivert.h ../test/testapplication.h ../test/testcnfs.h ../test/testmessages.h ../src/backtrack.h ../src/resources.h ../src/learn.h ../src/endianess.h ../src/limits.h ../src/heap.h ../src/equivalences.h ../src/check.h ../src/restart.h ../src/failed.h ../src/stack.h ../src/flags.h ../src/analyze.h ../src/ifthenelse.h ../src/error.h ../src/clause.h ../src/cover.h ../src/require.h ../src/decide.h ../src/value.h ../src/weaken.h ../src/reduce.h ../src/resolve.h ../src/utilities.h ../src/averages.h ../src/assign.h ../src/application.h ../src/walk.h ../src/propsearch.h ../src/reluctant.h ../src/file.h ../src/deduce.h ../src/rank.h ../src/internal.h ../src/terminate.h ../src/handle.h ../src/extend.h ../src/backward.h ../src/rephase.h ../src/autarky.h ../src/kissat.h ../src/reference.h ../src/vector.h ../src/sort.h ../src/allocate.h ../src/promote.h ../src/proof.h ../src/random.h ../src/inline.h ../src/proplit.h ../src/statistics.h ../src/probe.h ../src/witness.h ../src/eliminate.h ../src/trail.h ../src/print.h ../src/strengthen.h ../src/bump.h ../src/proprobe.h ../src/resize.h ../src/format.h ../src/arena.h ../src/watch.h ../src/options.h ../src/ands.h ../src/literal.h ../src/phases.h ../src/gates.h ../src/compact.h ../src/report.h ../src/vivify.h ../src/propdense.h ../src/collect.h ../src/ternary.h ../src/mode.h ../src/dominate.h ../src/substitute.h ../src/profile.h ../src/logging.h ../src/config.h ../src/prophyper.h ../src/clueue.h ../src/colors.h ../src/queue.h ../src/parse.h ../src/dense.h ../src/forward.h ../src/transitive.h ../src/xors.h ../src/smooth.h ../src/import.h ../src/frames.h ../src/minimize.h ../src/search.h makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'autarky'
+#  Last modified 2022-07-26 01:39:10.315763768
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 8):
+	$(CC) $(CFLAGS) -c $<
+
+# Not a target:
+dump.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/ifthenelse.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.677153959
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/strengthen.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.821158737
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/reference.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.661153427
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/profile.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.641152763
+#  File has been updated.
+#  Successfully updated.
+
+all: libkissat.a kissat
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+
+# Not a target:
+statistics.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+config.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+testreluctant.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/minimize.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.801158074
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/import.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.75315648
+#  File has been updated.
+#  Successfully updated.
+
+.PHONY: all clean coverage indent test build.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/application.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.64915303
+#  File has been updated.
+#  Successfully updated.
+
+analyze.o: ../src/analyze.c ../test/testscheduler.h ../test/test.h ../test/testdivert.h ../test/testapplication.h ../test/testcnfs.h ../test/testmessages.h ../src/backtrack.h ../src/resources.h ../src/learn.h ../src/endianess.h ../src/limits.h ../src/heap.h ../src/equivalences.h ../src/check.h ../src/restart.h ../src/failed.h ../src/stack.h ../src/flags.h ../src/analyze.h ../src/ifthenelse.h ../src/error.h ../src/clause.h ../src/cover.h ../src/require.h ../src/decide.h ../src/value.h ../src/weaken.h ../src/reduce.h ../src/resolve.h ../src/utilities.h ../src/averages.h ../src/assign.h ../src/application.h ../src/walk.h ../src/propsearch.h ../src/reluctant.h ../src/file.h ../src/deduce.h ../src/rank.h ../src/internal.h ../src/terminate.h ../src/handle.h ../src/extend.h ../src/backward.h ../src/rephase.h ../src/autarky.h ../src/kissat.h ../src/reference.h ../src/vector.h ../src/sort.h ../src/allocate.h ../src/promote.h ../src/proof.h ../src/random.h ../src/inline.h ../src/proplit.h ../src/statistics.h ../src/probe.h ../src/witness.h ../src/eliminate.h ../src/trail.h ../src/print.h ../src/strengthen.h ../src/bump.h ../src/proprobe.h ../src/resize.h ../src/format.h ../src/arena.h ../src/watch.h ../src/options.h ../src/ands.h ../src/literal.h ../src/phases.h ../src/gates.h ../src/compact.h ../src/report.h ../src/vivify.h ../src/propdense.h ../src/collect.h ../src/ternary.h ../src/mode.h ../src/dominate.h ../src/substitute.h ../src/profile.h ../src/logging.h ../src/config.h ../src/prophyper.h ../src/clueue.h ../src/colors.h ../src/queue.h ../src/parse.h ../src/dense.h ../src/forward.h ../src/transitive.h ../src/xors.h ../src/smooth.h ../src/import.h ../src/frames.h ../src/minimize.h ../src/search.h makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'analyze'
+#  Last modified 2022-07-26 01:39:09.723739767
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 8):
+	$(CC) $(CFLAGS) -c $<
+
+# Not a target:
+../src/promote.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.741156083
+#  File has been updated.
+#  Successfully updated.
+
+averages.o: ../src/averages.c ../test/testscheduler.h ../test/test.h ../test/testdivert.h ../test/testapplication.h ../test/testcnfs.h ../test/testmessages.h ../src/backtrack.h ../src/resources.h ../src/learn.h ../src/endianess.h ../src/limits.h ../src/heap.h ../src/equivalences.h ../src/check.h ../src/restart.h ../src/failed.h ../src/stack.h ../src/flags.h ../src/analyze.h ../src/ifthenelse.h ../src/error.h ../src/clause.h ../src/cover.h ../src/require.h ../src/decide.h ../src/value.h ../src/weaken.h ../src/reduce.h ../src/resolve.h ../src/utilities.h ../src/averages.h ../src/assign.h ../src/application.h ../src/walk.h ../src/propsearch.h ../src/reluctant.h ../src/file.h ../src/deduce.h ../src/rank.h ../src/internal.h ../src/terminate.h ../src/handle.h ../src/extend.h ../src/backward.h ../src/rephase.h ../src/autarky.h ../src/kissat.h ../src/reference.h ../src/vector.h ../src/sort.h ../src/allocate.h ../src/promote.h ../src/proof.h ../src/random.h ../src/inline.h ../src/proplit.h ../src/statistics.h ../src/probe.h ../src/witness.h ../src/eliminate.h ../src/trail.h ../src/print.h ../src/strengthen.h ../src/bump.h ../src/proprobe.h ../src/resize.h ../src/format.h ../src/arena.h ../src/watch.h ../src/options.h ../src/ands.h ../src/literal.h ../src/phases.h ../src/gates.h ../src/compact.h ../src/report.h ../src/vivify.h ../src/propdense.h ../src/collect.h ../src/ternary.h ../src/mode.h ../src/dominate.h ../src/substitute.h ../src/profile.h ../src/logging.h ../src/config.h ../src/prophyper.h ../src/clueue.h ../src/colors.h ../src/queue.h ../src/parse.h ../src/dense.h ../src/forward.h ../src/transitive.h ../src/xors.h ../src/smooth.h ../src/import.h ../src/frames.h ../src/minimize.h ../src/search.h makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'averages'
+#  Last modified 2022-07-26 01:39:10.363765714
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 8):
+	$(CC) $(CFLAGS) -c $<
+
+# Not a target:
+limits.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/resize.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.697154623
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+reduce.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+backtrack.o: ../src/backtrack.c ../test/testscheduler.h ../test/test.h ../test/testdivert.h ../test/testapplication.h ../test/testcnfs.h ../test/testmessages.h ../src/backtrack.h ../src/resources.h ../src/learn.h ../src/endianess.h ../src/limits.h ../src/heap.h ../src/equivalences.h ../src/check.h ../src/restart.h ../src/failed.h ../src/stack.h ../src/flags.h ../src/analyze.h ../src/ifthenelse.h ../src/error.h ../src/clause.h ../src/cover.h ../src/require.h ../src/decide.h ../src/value.h ../src/weaken.h ../src/reduce.h ../src/resolve.h ../src/utilities.h ../src/averages.h ../src/assign.h ../src/application.h ../src/walk.h ../src/propsearch.h ../src/reluctant.h ../src/file.h ../src/deduce.h ../src/rank.h ../src/internal.h ../src/terminate.h ../src/handle.h ../src/extend.h ../src/backward.h ../src/rephase.h ../src/autarky.h ../src/kissat.h ../src/reference.h ../src/vector.h ../src/sort.h ../src/allocate.h ../src/promote.h ../src/proof.h ../src/random.h ../src/inline.h ../src/proplit.h ../src/statistics.h ../src/probe.h ../src/witness.h ../src/eliminate.h ../src/trail.h ../src/print.h ../src/strengthen.h ../src/bump.h ../src/proprobe.h ../src/resize.h ../src/format.h ../src/arena.h ../src/watch.h ../src/options.h ../src/ands.h ../src/literal.h ../src/phases.h ../src/gates.h ../src/compact.h ../src/report.h ../src/vivify.h ../src/propdense.h ../src/collect.h ../src/ternary.h ../src/mode.h ../src/dominate.h ../src/substitute.h ../src/profile.h ../src/logging.h ../src/config.h ../src/prophyper.h ../src/clueue.h ../src/colors.h ../src/queue.h ../src/parse.h ../src/dense.h ../src/forward.h ../src/transitive.h ../src/xors.h ../src/smooth.h ../src/import.h ../src/frames.h ../src/minimize.h ../src/search.h makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'backtrack'
+#  Last modified 2022-07-26 01:39:10.435768634
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 8):
+	$(CC) $(CFLAGS) -c $<
+
+# Not a target:
+../src/mode.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.757156614
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+substitute.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+forward.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+parse.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/literal.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.793157808
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/backward.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.653153161
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+proof.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+testerror.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/trail.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.805158205
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/autarky.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.725155551
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/decide.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 13:56:11.319174191
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+logging.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/propdense.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.677153959
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+vivify.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+ 
+
+# Not a target:
+gates.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/extend.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.777157276
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+equivalences.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+flags.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/require.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.697154623
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/learn.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.641152763
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+arena.o: ../src/arena.c ../test/testscheduler.h ../test/test.h ../test/testdivert.h ../test/testapplication.h ../test/testcnfs.h ../test/testmessages.h ../src/backtrack.h ../src/resources.h ../src/learn.h ../src/endianess.h ../src/limits.h ../src/heap.h ../src/equivalences.h ../src/check.h ../src/restart.h ../src/failed.h ../src/stack.h ../src/flags.h ../src/analyze.h ../src/ifthenelse.h ../src/error.h ../src/clause.h ../src/cover.h ../src/require.h ../src/decide.h ../src/value.h ../src/weaken.h ../src/reduce.h ../src/resolve.h ../src/utilities.h ../src/averages.h ../src/assign.h ../src/application.h ../src/walk.h ../src/propsearch.h ../src/reluctant.h ../src/file.h ../src/deduce.h ../src/rank.h ../src/internal.h ../src/terminate.h ../src/handle.h ../src/extend.h ../src/backward.h ../src/rephase.h ../src/autarky.h ../src/kissat.h ../src/reference.h ../src/vector.h ../src/sort.h ../src/allocate.h ../src/promote.h ../src/proof.h ../src/random.h ../src/inline.h ../src/proplit.h ../src/statistics.h ../src/probe.h ../src/witness.h ../src/eliminate.h ../src/trail.h ../src/print.h ../src/strengthen.h ../src/bump.h ../src/proprobe.h ../src/resize.h ../src/format.h ../src/arena.h ../src/watch.h ../src/options.h ../src/ands.h ../src/literal.h ../src/phases.h ../src/gates.h ../src/compact.h ../src/report.h ../src/vivify.h ../src/propdense.h ../src/collect.h ../src/ternary.h ../src/mode.h ../src/dominate.h ../src/substitute.h ../src/profile.h ../src/logging.h ../src/config.h ../src/prophyper.h ../src/clueue.h ../src/colors.h ../src/queue.h ../src/parse.h ../src/dense.h ../src/forward.h ../src/transitive.h ../src/xors.h ../src/smooth.h ../src/import.h ../src/frames.h ../src/minimize.h ../src/search.h makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'arena'
+#  Last modified 2022-07-26 01:39:10.035752416
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 8):
+	$(CC) $(CFLAGS) -c $<
+
+# Not a target:
+../src/kissat.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.645152897
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+format.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bump.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+testapplication.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/resolve.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.825158869
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/analyze.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.817158603
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+trail.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/probe.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.849159665
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/ands.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.689154357
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/compact.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.75315648
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/logging.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.777157276
+#  File has been updated.
+#  Successfully updated.
+
+allocate.o: ../src/allocate.c ../test/testscheduler.h ../test/test.h ../test/testdivert.h ../test/testapplication.h ../test/testcnfs.h ../test/testmessages.h ../src/backtrack.h ../src/resources.h ../src/learn.h ../src/endianess.h ../src/limits.h ../src/heap.h ../src/equivalences.h ../src/check.h ../src/restart.h ../src/failed.h ../src/stack.h ../src/flags.h ../src/analyze.h ../src/ifthenelse.h ../src/error.h ../src/clause.h ../src/cover.h ../src/require.h ../src/decide.h ../src/value.h ../src/weaken.h ../src/reduce.h ../src/resolve.h ../src/utilities.h ../src/averages.h ../src/assign.h ../src/application.h ../src/walk.h ../src/propsearch.h ../src/reluctant.h ../src/file.h ../src/deduce.h ../src/rank.h ../src/internal.h ../src/terminate.h ../src/handle.h ../src/extend.h ../src/backward.h ../src/rephase.h ../src/autarky.h ../src/kissat.h ../src/reference.h ../src/vector.h ../src/sort.h ../src/allocate.h ../src/promote.h ../src/proof.h ../src/random.h ../src/inline.h ../src/proplit.h ../src/statistics.h ../src/probe.h ../src/witness.h ../src/eliminate.h ../src/trail.h ../src/print.h ../src/strengthen.h ../src/bump.h ../src/proprobe.h ../src/resize.h ../src/format.h ../src/arena.h ../src/watch.h ../src/options.h ../src/ands.h ../src/literal.h ../src/phases.h ../src/gates.h ../src/compact.h ../src/report.h ../src/vivify.h ../src/propdense.h ../src/collect.h ../src/ternary.h ../src/mode.h ../src/dominate.h ../src/substitute.h ../src/profile.h ../src/logging.h ../src/config.h ../src/prophyper.h ../src/clueue.h ../src/colors.h ../src/queue.h ../src/parse.h ../src/dense.h ../src/forward.h ../src/transitive.h ../src/xors.h ../src/smooth.h ../src/import.h ../src/frames.h ../src/minimize.h ../src/search.h makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'allocate'
+#  Last modified 2022-07-26 01:39:09.591734415
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 8):
+	$(CC) $(CFLAGS) -c $<
+
+# Not a target:
+../src/gates.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.789157676
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/utilities.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.853159799
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+rephase.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test.o: test.c build.h ../test/testscheduler.h ../test/test.h ../test/testdivert.h ../test/testapplication.h ../test/testcnfs.h ../test/testmessages.h ../src/backtrack.h ../src/resources.h ../src/learn.h ../src/endianess.h ../src/limits.h ../src/heap.h ../src/equivalences.h ../src/check.h ../src/restart.h ../src/failed.h ../src/stack.h ../src/flags.h ../src/analyze.h ../src/ifthenelse.h ../src/error.h ../src/clause.h ../src/cover.h ../src/require.h ../src/decide.h ../src/value.h ../src/weaken.h ../src/reduce.h ../src/resolve.h ../src/utilities.h ../src/averages.h ../src/assign.h ../src/application.h ../src/walk.h ../src/propsearch.h ../src/reluctant.h ../src/file.h ../src/deduce.h ../src/rank.h ../src/internal.h ../src/terminate.h ../src/handle.h ../src/extend.h ../src/backward.h ../src/rephase.h ../src/autarky.h ../src/kissat.h ../src/reference.h ../src/vector.h ../src/sort.h ../src/allocate.h ../src/promote.h ../src/proof.h ../src/random.h ../src/inline.h ../src/proplit.h ../src/statistics.h ../src/probe.h ../src/witness.h ../src/eliminate.h ../src/trail.h ../src/print.h ../src/strengthen.h ../src/bump.h ../src/proprobe.h ../src/resize.h ../src/format.h ../src/arena.h ../src/watch.h ../src/options.h ../src/ands.h ../src/literal.h ../src/phases.h ../src/gates.h ../src/compact.h ../src/report.h ../src/vivify.h ../src/propdense.h ../src/collect.h ../src/ternary.h ../src/mode.h ../src/dominate.h ../src/substitute.h ../src/profile.h ../src/logging.h ../src/config.h ../src/prophyper.h ../src/clueue.h ../src/colors.h ../src/queue.h ../src/parse.h ../src/dense.h ../src/forward.h ../src/transitive.h ../src/xors.h ../src/smooth.h ../src/import.h ../src/frames.h ../src/minimize.h ../src/search.h makefile
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 63):
+	$(CC) $(CFLAGS) $(INCLUDES) -c $<
+
+# Not a target:
+../src/forward.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.733155816
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+sort.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test: all tissat
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 28):
+	./tissat
+
+# Not a target:
+testsizes.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+decide.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+eliminate.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+propagate.o: ../src/assign.c
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+walk.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 01:39:09.475729712
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/limits.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.669153693
+#  File has been updated.
+#  Successfully updated.
+
+build.o: ../src/build.c build.h ../test/testscheduler.h ../test/test.h ../test/testdivert.h ../test/testapplication.h ../test/testcnfs.h ../test/testmessages.h ../src/backtrack.h ../src/resources.h ../src/learn.h ../src/endianess.h ../src/limits.h ../src/heap.h ../src/equivalences.h ../src/check.h ../src/restart.h ../src/failed.h ../src/stack.h ../src/flags.h ../src/analyze.h ../src/ifthenelse.h ../src/error.h ../src/clause.h ../src/cover.h ../src/require.h ../src/decide.h ../src/value.h ../src/weaken.h ../src/reduce.h ../src/resolve.h ../src/utilities.h ../src/averages.h ../src/assign.h ../src/application.h ../src/walk.h ../src/propsearch.h ../src/reluctant.h ../src/file.h ../src/deduce.h ../src/rank.h ../src/internal.h ../src/terminate.h ../src/handle.h ../src/extend.h ../src/backward.h ../src/rephase.h ../src/autarky.h ../src/kissat.h ../src/reference.h ../src/vector.h ../src/sort.h ../src/allocate.h ../src/promote.h ../src/proof.h ../src/random.h ../src/inline.h ../src/proplit.h ../src/statistics.h ../src/probe.h ../src/witness.h ../src/eliminate.h ../src/trail.h ../src/print.h ../src/strengthen.h ../src/bump.h ../src/proprobe.h ../src/resize.h ../src/format.h ../src/arena.h ../src/watch.h ../src/options.h ../src/ands.h ../src/literal.h ../src/phases.h ../src/gates.h ../src/compact.h ../src/report.h ../src/vivify.h ../src/propdense.h ../src/collect.h ../src/ternary.h ../src/mode.h ../src/dominate.h ../src/substitute.h ../src/profile.h ../src/logging.h ../src/config.h ../src/prophyper.h ../src/clueue.h ../src/colors.h ../src/queue.h ../src/parse.h ../src/dense.h ../src/forward.h ../src/transitive.h ../src/xors.h ../src/smooth.h ../src/import.h ../src/frames.h ../src/minimize.h ../src/search.h makefile
+#  Implicit rule search has not been done.
+#  Last modified 2022-07-26 01:39:10.659777716
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+#  recipe to execute (from 'makefile', line 60):
+	$(CC) $(CFLAGS) $(INCLUDES) -c $<
+
+# Not a target:
+testdump.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+print.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/autarky.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.785157542
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/collect.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.705154887
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+ 
+../src/report.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.789157676
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/vivify.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.653153161
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+witness.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+error.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/xors.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.725155551
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/flags.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.769157012
+#  File has been updated.
+#  Successfully updated.
+
+assign.o: ../src/assign.c ../test/testscheduler.h ../test/test.h ../test/testdivert.h ../test/testapplication.h ../test/testcnfs.h ../test/testmessages.h ../src/backtrack.h ../src/resources.h ../src/learn.h ../src/endianess.h ../src/limits.h ../src/heap.h ../src/equivalences.h ../src/check.h ../src/restart.h ../src/failed.h ../src/stack.h ../src/flags.h ../src/analyze.h ../src/ifthenelse.h ../src/error.h ../src/clause.h ../src/cover.h ../src/require.h ../src/decide.h ../src/value.h ../src/weaken.h ../src/reduce.h ../src/resolve.h ../src/utilities.h ../src/averages.h ../src/assign.h ../src/application.h ../src/walk.h ../src/propsearch.h ../src/reluctant.h ../src/file.h ../src/deduce.h ../src/rank.h ../src/internal.h ../src/terminate.h ../src/handle.h ../src/extend.h ../src/backward.h ../src/rephase.h ../src/autarky.h ../src/kissat.h ../src/reference.h ../src/vector.h ../src/sort.h ../src/allocate.h ../src/promote.h ../src/proof.h ../src/random.h ../src/inline.h ../src/proplit.h ../src/statistics.h ../src/probe.h ../src/witness.h ../src/eliminate.h ../src/trail.h ../src/print.h ../src/strengthen.h ../src/bump.h ../src/proprobe.h ../src/resize.h ../src/format.h ../src/arena.h ../src/watch.h ../src/options.h ../src/ands.h ../src/literal.h ../src/phases.h ../src/gates.h ../src/compact.h ../src/report.h ../src/vivify.h ../src/propdense.h ../src/collect.h ../src/ternary.h ../src/mode.h ../src/dominate.h ../src/substitute.h ../src/profile.h ../src/logging.h ../src/config.h ../src/prophyper.h ../src/clueue.h ../src/colors.h ../src/queue.h ../src/parse.h ../src/dense.h ../src/forward.h ../src/transitive.h ../src/xors.h ../src/smooth.h ../src/import.h ../src/frames.h ../src/minimize.h ../src/search.h makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'assign'
+#  Last modified 2022-07-26 01:39:10.119755822
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 8):
+	$(CC) $(CFLAGS) -c $<
+
+# Not a target:
+../src/queue.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.817158603
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/backtrack.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 08:01:32
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+handle.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/format.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.845159533
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/smooth.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.805158205
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/arena.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.857159931
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/dense.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.745156214
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/walk.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.805158205
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/clause.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.813158472
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+testusage.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/analyze.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.813158472
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+import.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+weaken.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+colors.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/random.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.681154091
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/parse.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.801158074
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+testsort.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/weaken.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.765156878
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/witness.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.661153427
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+phases.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../test/testapplication.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:22.041166036
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/allocate.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.821158737
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/stack.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.809158339
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/check.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.729155685
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+file.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/search.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.777157276
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/handle.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.673153825
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../test/test.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.857159931
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+testprove.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/value.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.693154489
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/print.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.853159799
+#  File has been updated.
+#  Successfully updated.
+
+watch.o: sort.c
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+testparse.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/clueue.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.79715794
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+propsearch.o:
+ 
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+strengthen.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+testreferences.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/assign.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.73715595
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/proplit.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.64915303
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/resources.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.729155685
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+reluctant.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+testqueue.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/backtrack.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.721155419
+#  File has been updated.
+#  Successfully updated.
+
+libkissat.a: allocate.o analyze.o ands.o application.o arena.o assign.o autarky.o averages.o backtrack.o backward.o build.o bump.o check.o clause.o clueue.o collect.o colors.o compact.o config.o decide.o deduce.o dense.o dominate.o dump.o eliminate.o equivalences.o error.o extend.o failed.o file.o flags.o format.o forward.o frames.o gates.o handle.o heap.o ifthenelse.o import.o internal.o learn.o limits.o logging.o minimize.o mode.o options.o parse.o phases.o print.o probe.o profile.o promote.o proof.o propdense.o prophyper.o proprobe.o propsearch.o queue.o reduce.o reluctant.o rephase.o report.o resize.o resolve.o resources.o restart.o search.o smooth.o sort.o stack.o statistics.o strengthen.o substitute.o terminate.o ternary.o trail.o transitive.o utilities.o vector.o vivify.o walk.o watch.o weaken.o witness.o xors.o makefile
+#  Implicit rule search has not been done.
+#  Last modified 2022-07-26 01:39:18.54809754
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+#  recipe to execute (from 'makefile', line 66):
+	$(AR) rc $@ $(LIBOBJ)
+
+# Not a target:
+../src/arena.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.713155152
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+testdivert.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+vector.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+tissat: test.o application.o handle.o parse.o witness.o testadd.o testallocate.o testapplication.o testarena.o testbump.o testcollect.o testcoverage.o testdivert.o testdump.o testendianess.o testerror.o testfile.o testformat.o testheap.o testinit.o testmain.o testmessages.o testoptions.o testparse.o testprove.o testqueue.o testrandom.o testrank.o testreferences.o testreluctant.o testscheduler.o testsizes.o testsolve.o testsort.o teststack.o testterminate.o testusage.o testvector.o libkissat.a makefile
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 49):
+	$(LD) -o $@ $< $(TSTOBJ) -L. -lkissat -lm
+
+# Not a target:
+extend.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/propsearch.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.829159003
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/watch.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.793157808
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+testscheduler.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/heap.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.733155816
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/allocate.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.773157144
+#  File has been updated.
+#  Successfully updated.
+
+ands.o: ../src/ands.c ../test/testscheduler.h ../test/test.h ../test/testdivert.h ../test/testapplication.h ../test/testcnfs.h ../test/testmessages.h ../src/backtrack.h ../src/resources.h ../src/learn.h ../src/endianess.h ../src/limits.h ../src/heap.h ../src/equivalences.h ../src/check.h ../src/restart.h ../src/failed.h ../src/stack.h ../src/flags.h ../src/analyze.h ../src/ifthenelse.h ../src/error.h ../src/clause.h ../src/cover.h ../src/require.h ../src/decide.h ../src/value.h ../src/weaken.h ../src/reduce.h ../src/resolve.h ../src/utilities.h ../src/averages.h ../src/assign.h ../src/application.h ../src/walk.h ../src/propsearch.h ../src/reluctant.h ../src/file.h ../src/deduce.h ../src/rank.h ../src/internal.h ../src/terminate.h ../src/handle.h ../src/extend.h ../src/backward.h ../src/rephase.h ../src/autarky.h ../src/kissat.h ../src/reference.h ../src/vector.h ../src/sort.h ../src/allocate.h ../src/promote.h ../src/proof.h ../src/random.h ../src/inline.h ../src/proplit.h ../src/statistics.h ../src/probe.h ../src/witness.h ../src/eliminate.h ../src/trail.h ../src/print.h ../src/strengthen.h ../src/bump.h ../src/proprobe.h ../src/resize.h ../src/format.h ../src/arena.h ../src/watch.h ../src/options.h ../src/ands.h ../src/literal.h ../src/phases.h ../src/gates.h ../src/compact.h ../src/report.h ../src/vivify.h ../src/propdense.h ../src/collect.h ../src/ternary.h ../src/mode.h ../src/dominate.h ../src/substitute.h ../src/profile.h ../src/logging.h ../src/config.h ../src/prophyper.h ../src/clueue.h ../src/colors.h ../src/queue.h ../src/parse.h ../src/dense.h ../src/forward.h ../src/transitive.h ../src/xors.h ../src/smooth.h ../src/import.h ../src/frames.h ../src/minimize.h ../src/search.h makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'ands'
+#  Last modified 2022-07-26 01:39:09.791742524
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 8):
+	$(CC) $(CFLAGS) -c $<
+
+# Not a target:
+../src/file.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.665153561
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+testadd.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+resources.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/eliminate.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.849159665
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+restart.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+utilities.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+heap.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/ternary.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.677153959
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/bump.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 11:34:24.93596289
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+testsolve.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+test.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+sort.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+indent:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 43):
+	indent ../*/*.[ch]
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 33):
+	rm -f kissat tissat
+	rm -f makefile build.h *.o *.a
+	rm -f $(REMOVE)
+	cd ../src; rm -f $(REMOVE)
+	cd ../test; rm -f $(REMOVE)
+
+# Not a target:
+../src/assign.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.849159665
+#  File has been updated.
+#  Successfully updated.
+
+coverage:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 40):
+	@gcov -o . -s ../src/*.[ch] 2>&1 | \
+	../scripts/filter-coverage-output.sh
+
+dense.o: sort.c
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/cover.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.689154357
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/averages.c:
+ 
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.669153693
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/phases.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.773157144
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+testarena.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/vector.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.761156746
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/rephase.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.773157144
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+testrandom.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/rank.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.833159135
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+ternary.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/proof.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.741156083
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../test/testdivert.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:22.037165905
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+testformat.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+compact.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+proprobe.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+testallocate.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/ands.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.729155685
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+failed.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/internal.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 11:33:24.739964069
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/reduce.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.657153295
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../test/testscheduler.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:22.025165507
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+testmessages.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+prophyper.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+resize.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+queue.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+xors.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+testcoverage.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/build.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.821158737
+#  File has been updated.
+#  Successfully updated.
+
+collect.o: sort.c
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+backward.o: ../src/backward.c ../test/testscheduler.h ../test/test.h ../test/testdivert.h ../test/testapplication.h ../test/testcnfs.h ../test/testmessages.h ../src/backtrack.h ../src/resources.h ../src/learn.h ../src/endianess.h ../src/limits.h ../src/heap.h ../src/equivalences.h ../src/check.h ../src/restart.h ../src/failed.h ../src/stack.h ../src/flags.h ../src/analyze.h ../src/ifthenelse.h ../src/error.h ../src/clause.h ../src/cover.h ../src/require.h ../src/decide.h ../src/value.h ../src/weaken.h ../src/reduce.h ../src/resolve.h ../src/utilities.h ../src/averages.h ../src/assign.h ../src/application.h ../src/walk.h ../src/propsearch.h ../src/reluctant.h ../src/file.h ../src/deduce.h ../src/rank.h ../src/internal.h ../src/terminate.h ../src/handle.h ../src/extend.h ../src/backward.h ../src/rephase.h ../src/autarky.h ../src/kissat.h ../src/reference.h ../src/vector.h ../src/sort.h ../src/allocate.h ../src/promote.h ../src/proof.h ../src/random.h ../src/inline.h ../src/proplit.h ../src/statistics.h ../src/probe.h ../src/witness.h ../src/eliminate.h ../src/trail.h ../src/print.h ../src/strengthen.h ../src/bump.h ../src/proprobe.h ../src/resize.h ../src/format.h ../src/arena.h ../src/watch.h ../src/options.h ../src/ands.h ../src/literal.h ../src/phases.h ../src/gates.h ../src/compact.h ../src/report.h ../src/vivify.h ../src/propdense.h ../src/collect.h ../src/ternary.h ../src/mode.h ../src/dominate.h ../src/substitute.h ../src/profile.h ../src/logging.h ../src/config.h ../src/prophyper.h ../src/clueue.h ../src/colors.h ../src/queue.h ../src/parse.h ../src/dense.h ../src/forward.h ../src/transitive.h ../src/xors.h ../src/smooth.h ../src/import.h ../src/frames.h ../src/minimize.h ../src/search.h makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'backward'
+#  Last modified 2022-07-26 01:39:10.571774147
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 8):
+	$(CC) $(CFLAGS) -c $<
+
+# Not a target:
+../src/endianess.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.833159135
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/proprobe.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.717155287
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/reluctant.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.673153825
+#  File has been updated.
+#  Successfully updated.
+
+application.o: ../src/application.c ../test/testscheduler.h ../test/test.h ../test/testdivert.h ../test/testapplication.h ../test/testcnfs.h ../test/testmessages.h ../src/backtrack.h ../src/resources.h ../src/learn.h ../src/endianess.h ../src/limits.h ../src/heap.h ../src/equivalences.h ../src/check.h ../src/restart.h ../src/failed.h ../src/stack.h ../src/flags.h ../src/analyze.h ../src/ifthenelse.h ../src/error.h ../src/clause.h ../src/cover.h ../src/require.h ../src/decide.h ../src/value.h ../src/weaken.h ../src/reduce.h ../src/resolve.h ../src/utilities.h ../src/averages.h ../src/assign.h ../src/application.h ../src/walk.h ../src/propsearch.h ../src/reluctant.h ../src/file.h ../src/deduce.h ../src/rank.h ../src/internal.h ../src/terminate.h ../src/handle.h ../src/extend.h ../src/backward.h ../src/rephase.h ../src/autarky.h ../src/kissat.h ../src/reference.h ../src/vector.h ../src/sort.h ../src/allocate.h ../src/promote.h ../src/proof.h ../src/random.h ../src/inline.h ../src/proplit.h ../src/statistics.h ../src/probe.h ../src/witness.h ../src/eliminate.h ../src/trail.h ../src/print.h ../src/strengthen.h ../src/bump.h ../src/proprobe.h ../src/resize.h ../src/format.h ../src/arena.h ../src/watch.h ../src/options.h ../src/ands.h ../src/literal.h ../src/phases.h ../src/gates.h ../src/compact.h ../src/report.h ../src/vivify.h ../src/propdense.h ../src/collect.h ../src/ternary.h ../src/mode.h ../src/dominate.h ../src/substitute.h ../src/profile.h ../src/logging.h ../src/config.h ../src/prophyper.h ../src/clueue.h ../src/colors.h ../src/queue.h ../src/parse.h ../src/dense.h ../src/forward.h ../src/transitive.h ../src/xors.h ../src/smooth.h ../src/import.h ../src/frames.h ../src/minimize.h ../src/search.h makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'application'
+#  Last modified 2022-07-26 01:39:09.967749659
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 8):
+	$(CC) $(CFLAGS) -c $<
+
+# Not a target:
+smooth.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ifthenelse.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/config.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.837159267
+#  File has been updated.
+#  Successfully updated.
+
+build.h:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := build.h
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/12=8%
+#  recipe to execute (from 'makefile', line 52):
+	../scripts/generate-build-header.sh > $@
+
+# Not a target:
+clause.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+ 
+
+# Not a target:
+testheap.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+profile.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/deduce.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.817158603
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+options.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+stack.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/sort.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.685154225
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+check.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/failed.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.657153295
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/dominate.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.717155287
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/averages.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.717155287
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+promote.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/prophyper.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.829159003
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+testterminate.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/equivalences.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.853159799
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../src/terminate.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.661153427
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+search.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+minimize.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+frames.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+testcollect.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+testbump.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../test/testmessages.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:22.029165639
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+testfile.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/options.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 14:17:54.491996009
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+deduce.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+clueue.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+testinit.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+dominate.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+resolve.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+mode.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/transitive.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.661153427
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+propdense.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+terminate.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+report.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/application.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 01:15:08
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+testendianess.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+testrank.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../src/inline.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 07:51:21.757156614
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=247/1024=24%, Rehash=0, Collisions=407/2728=15%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# General ('VPATH' variable) search path:
+# ../src:../test
+
+# strcache buffers: 1 (0) / strings = 506 / storage = 5911 B / avg = 11 B
+# current buf: size = 8162 B / used = 5911 B / count = 506 / avg = 11 B
+
+# strcache performance: lookups = 2920 / hit rate = 82%
+# hash-table stats:
+# Load=506/8192=6%, Rehash=0, Collisions=223/2920=8%
+# Finished Make data base on Sun Jul 31 00:13:06 2022
+
+ 
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sun Jul 31 00:13:06 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+VSCODE_AGENT_FOLDER = /home/chenzh/.vscode-server
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /home/chenzh/solvers/shuffle_phase/kissat_mab-sr
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"1d735750dbb1b9066c7513078396ba0f.zh-cn","_translationsConfigFile":"/home/chenzh/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/tcf.json","_cacheRoot":"/home/chenzh/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn","_resolvedLanguagePackCoreLocation":"/home/chenzh/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/3b889b090b5ad5793f524b5d1d39fda662b96a2a","_corruptedFile":"/home/chenzh/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /home/chenzh/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/node
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/chenzh
+# environment
+SSH_CONNECTION = 172.16.2.5 55705 192.168.100.1 22
+# environment
+PATH = /home/chenzh/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-b8f10098-784d-4f8c-b539-be7401e7792f.sock
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# automatic
+%F = $(notdir $%)
+# environment
+PWD = /home/chenzh/solvers/shuffle_phase/kissat_mab-sr
+# default
+.LOADED := 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/chenzh
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+LOGNAME = chenzh
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 0
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = chenzh
+# makefile
+.DEFAULT_GOAL := all
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = 172.16.2.5 55705 22
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = /home/chenzh/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/bin/helpers/browser.sh
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+LANG = C
+# environment
+MOTD_SHOWN = pam
+# variable set hash-table stats:
+# Load=61/1024=6%, Rehash=0, Collisions=7/91=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 55, inode 89523925): 14 files, no impossibilities.
+
+# 14 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+kissat:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 4):
+	$(MAKE) -C "/home/chenzh/solvers/shuffle/kissat_mab-sr/build" kissat
+
+all:
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/13=15%
+#  recipe to execute (from 'makefile', line 2):
+	$(MAKE) -C "/home/chenzh/solvers/shuffle/kissat_mab-sr/build"
+
+.PHONY: all clean coverage indent kissat test tissat
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 16):
+	$(MAKE) -C "/home/chenzh/solvers/shuffle/kissat_mab-sr/build" test
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 01:39:09.467729387
+#  File has been updated.
+#  Successfully updated.
+
+tissat:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 6):
+	$(MAKE) -C "/home/chenzh/solvers/shuffle/kissat_mab-sr/build" tissat
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+indent:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 14):
+	$(MAKE) -C "/home/chenzh/solvers/shuffle/kissat_mab-sr/build" indent
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 8):
+	rm -f "/home/chenzh/solvers/shuffle/kissat_mab-sr"/makefile
+	-$(MAKE) -C "/home/chenzh/solvers/shuffle/kissat_mab-sr/build" clean
+	rm -rf "/home/chenzh/solvers/shuffle/kissat_mab-sr/build"
+
+coverage:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 12):
+	$(MAKE) -C "/home/chenzh/solvers/shuffle/kissat_mab-sr/build" coverage
+
+# files hash-table stats:
+# Load=11/1024=1%, Rehash=0, Collisions=0/31=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 25 / storage = 204 B / avg = 8 B
+# current buf: size = 8162 B / used = 204 B / count = 25 / avg = 8 B
+
+# strcache performance: lookups = 47 / hit rate = 46%
+# hash-table stats:
+# Load=25/8192=0%, Rehash=0, Collisions=1/47=2%
+# Finished Make data base on Sun Jul 31 00:13:06 2022
+
+ 

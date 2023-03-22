@@ -1,0 +1,123 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/chenzh/solvers/shuffle_clean/kissat_mab-sr'
+make -C "/home/chenzh/solvers/shuffle_clean/kissat_mab-sr/build"
+ 
+make[1]: Entering directory '/home/chenzh/solvers/shuffle_clean/kissat_mab-sr/build'
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/allocate.c
+ 
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/analyze.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/ands.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/application.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/arena.c
+ 
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/assign.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/autarky.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/averages.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/backtrack.c
+ 
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/backward.c
+../scripts/generate-build-header.sh > build.h
+ 
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -I../build -c ../src/build.c
+ 
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/bump.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/check.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/clause.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/clueue.c
+ 
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/collect.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/colors.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/compact.c
+ 
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/config.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/decide.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/deduce.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/dense.c
+ 
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/dominate.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/dump.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/eliminate.c
+ 
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/equivalences.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/error.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/extend.c
+ 
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/failed.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/file.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/flags.c
+ 
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/format.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/forward.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/frames.c
+ 
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/gates.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/handle.c
+ 
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/heap.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/ifthenelse.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/import.c
+ 
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/internal.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/learn.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/limits.c
+ 
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/logging.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/minimize.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/mode.c
+ 
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/options.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/parse.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/phases.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/print.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/probe.c
+ 
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/profile.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/promote.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/proof.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/propdense.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/prophyper.c
+ 
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/proprobe.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/propsearch.c
+ 
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/queue.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/reduce.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/reluctant.c
+ 
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/rephase.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/report.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/resize.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/resolve.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/resources.c
+ 
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/restart.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/search.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/smooth.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/sort.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/stack.c
+ 
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/statistics.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/strengthen.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/substitute.c
+ 
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/terminate.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/ternary.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/trail.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/transitive.c
+ 
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/utilities.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/vector.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/vivify.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/walk.c
+ 
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/watch.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/weaken.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/witness.c
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/xors.c
+ar rc libkissat.a allocate.o analyze.o ands.o application.o arena.o assign.o autarky.o averages.o backtrack.o backward.o build.o bump.o check.o clause.o clueue.o collect.o colors.o compact.o config.o decide.o deduce.o dense.o dominate.o dump.o eliminate.o equivalences.o error.o extend.o failed.o file.o flags.o format.o forward.o frames.o gates.o handle.o heap.o ifthenelse.o import.o internal.o learn.o limits.o logging.o minimize.o mode.o options.o parse.o phases.o print.o probe.o profile.o promote.o proof.o propdense.o prophyper.o proprobe.o propsearch.o queue.o reduce.o reluctant.o rephase.o report.o resize.o resolve.o resources.o restart.o search.o smooth.o sort.o stack.o statistics.o strengthen.o substitute.o terminate.o ternary.o trail.o transitive.o utilities.o vector.o vivify.o walk.o watch.o weaken.o witness.o xors.o
+gcc -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS -c ../src/main.c
+gcc -o kissat main.o application.o handle.o parse.o witness.o -L. -lkissat -lm
+make[1]: Leaving directory '/home/chenzh/solvers/shuffle_clean/kissat_mab-sr/build'
+ 
+make: Leaving directory '/home/chenzh/solvers/shuffle_clean/kissat_mab-sr'
+ 
