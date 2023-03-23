@@ -1,0 +1,13 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/chenzh/solvers/shuffle/pakis-sr'
+ 
+g++ -c parse.cpp -o parse.o -Ikissat_sat/build/kissat -std=c++11 -O3 -lkissat -Lkissat_sat/build/kissat/build/ -lpthread -lz -lm -static
+g++ -c main.cpp -o main.o -Ikissat_sat/build/kissat -std=c++11 -O3 -lkissat -Lkissat_sat/build/kissat/build/ -lpthread -lz -lm -static
+ 
+g++ -c inter.cpp -o inter.o -Ikissat_sat/build/kissat -std=c++11 -O3 -lkissat -Lkissat_sat/build/kissat/build/ -lpthread -lz -lm -static
+g++ -c sample.cpp -o sample.o -Ikissat_sat/build/kissat -std=c++11 -O3 -lkissat -Lkissat_sat/build/kissat/build/ -lpthread -lz -lm -static
+g++ -c simplify.cpp -o simplify.o -Ikissat_sat/build/kissat -std=c++11 -O3 -lkissat -Lkissat_sat/build/kissat/build/ -lpthread -lz -lm -static
+g++ -c pasolve.cpp -o pasolve.o -Ikissat_sat/build/kissat -std=c++11 -O3 -lkissat -Lkissat_sat/build/kissat/build/ -lpthread -lz -lm -static
+g++ -o pakissat parse.o main.o inter.o sample.o simplify.o pasolve.o -Ikissat_sat/build/kissat -std=c++11 -O3 -lkissat -Lkissat_sat/build/kissat/build/ -lpthread -lz -lm -static
+make: Leaving directory '/home/chenzh/solvers/shuffle/pakis-sr'
+ 

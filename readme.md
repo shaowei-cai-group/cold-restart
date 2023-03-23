@@ -1,4 +1,4 @@
-# TACAS23 Cold Restart
+# Cold Restart
 ---
 - Code：    The source codes for the paper
 - Results:  The detailed results for the experiments.
